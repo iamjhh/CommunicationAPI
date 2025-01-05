@@ -6,5 +6,8 @@ public interface IFriendManager {
     void addFriend(String playerName, String friendName);
     void removeFriend(String playerName, String friendName);
 
+    void acceptFriendRequest();
+    void sendFriendRequest(String playerName);
+
     List<String> getFriends(String playerName);
 }
